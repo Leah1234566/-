@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.big{
+			height: auto;
+			width: 50%;
+			margin: auto;
+			background-color: whitesmoke;
+		}
+		.first{
+			width: 100%;
+			height: 400px;
+		}
+		h2{
+			width: 100%;
+			text-align: center;
+			background-color:rgb(238,180,180,0.3);
+			border-radius: 50px;
+			width: 400px;
+			height: 30px;
+			margin: auto;
+			margin-bottom: 30px;
+			box-shadow: 2px 2px 10px gainsboro;
+			text-shadow: 2px 2px lightpink;
+		}
+		
+		img{
+			height: 300px;
+			width: 100%;
+			margin-top: -10px;
+			border-radius: 10px;
+			border: 3px solid black;
+		}
+		.two{
+			width: 100%;
+			height: 200px;
+			margin-bottom: 50px;
+		}
+		ul{
+			list-style: none;
+			margin-top: 10px;
+			position: relative;
+			z-index: 999;
+		}
+		li{
+		width: 400px;
+			height: 30px;
+			background-color: ;
+			float: left;
+			line-height: 30px;
+			margin-left: 21px;
+			margin-bottom: 10px;
+		}
+		a{
+color: black;
+		}
+		li:hover{
+			background-color: white;
+			transition: 2s ease;
+		}
+		.three,.four{
+			clear: both;
+			height: 200px;
+			width: 100%;
+			margin-bottom: 50px;
+		}
+		.four{
+			margin-top: 20px;
+		}
+		p{
+			margin-top: 10px;
+			font-size: 20px;
+			font-family: "微软雅黑";
+			text-shadow: 1px 1px wheat;
+		}
+			.bubbles{
+		  position:absolute;
+		  width:100%;
+		  height: 100%;
+		  z-index:0;
+		  overflow:hidden;
+		  top:0;
+		  left:0;
+		}
+		.bubble{
+		  position: absolute;
+		  bottom:-100px;
+		  width:40px;
+		  height: 40px;
+		  background:gray;
+		  border-radius:50%;
+		  opacity:0.5;
+		  animation: rise 10s infinite ease-in;
+		}
+		.bubble:nth-child(1){
+		  width:40px;
+		  height:40px;
+		  left:10%;
+		  animation-duration:8s;
+		}
+		.bubble:nth-child(2){
+		  width:20px;
+		  height:20px;
+		  left:20%;
+		  animation-duration:5s;
+		  animation-delay:1s;
+		}
+		.bubble:nth-child(3){
+		  width:50px;
+		  height:50px;
+		  left:35%;
+		  animation-duration:7s;
+		  animation-delay:2s;
+		}
+		.bubble:nth-child(4){
+		  width:80px;
+		  height:80px;
+		  left:50%;
+		  animation-duration:11s;
+		  animation-delay:0s;
+		}
+		.bubble:nth-child(5){
+		  width:35px;
+		  height:35px;
+		  left:55%;
+		  animation-duration:6s;
+		  animation-delay:1s;
+		}
+		.bubble:nth-child(6){
+		  width:45px;
+		  height:45px;
+		  left:65%;
+		  animation-duration:8s;
+		  animation-delay:3s;
+		}
+		.bubble:nth-child(7){
+		  width:90px;
+		  height:90px;
+		  left:70%;
+		  animation-duration:12s;
+		  animation-delay:2s;
+		}
+		.bubble:nth-child(8){
+		  width:25px;
+		  height:25px;
+		  left:80%;
+		  animation-duration:6s;
+		  animation-delay:2s;
+		}
+		.bubble:nth-child(9){
+		  width:15px;
+		  height:15px;
+		  left:70%;
+		  animation-duration:5s;
+		  animation-delay:1s;
+		}
+		.bubble:nth-child(10){
+		  width:90px;
+		  height:90px;
+		  left:25%;
+		  animation-duration:10s;
+		  animation-delay:4s;
+		}
+		@keyframes rise{
+		  0%{
+		    bottom:-500px;
+		    transform:translateX(0);
+		  }
+		  50%{
+		    transform:translate(100px);
+		  }
+		  100%{
+		    bottom:1080px;
+		    transform:translateX(-200px);
+		  }
+		}
+		</style>
+	</head>
+	<body>
+		<section class="sticky">
+		  <div class="bubbles">
+		      <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    <div class="bubble"></div>
+		    
+		  </div>
+		</section>
+		<div class="big">
+		<div class="first">
+		<h2>计算机学科各课程之间的关系图</h2><br />
+		<img src="img/学业规划.png" />
+		</div>
+		
+		<div class="two">
+			<h2>参考资料</h2>
+			<ul>
+				<li><a href="https://www.bilibili.com/video/BV1Kb41127fT">数据结构-浙江大学_哔哩哔哩</a></li>
+				<li><a href="http://tsinghua.edu.cn/">清华大学云盘</a></li>
+				<li><a href="https://github.com/tongtzeho/PKUCourse">tongtzeho/PKUCourse: 北大计算机课程大作业</a></li>
+				<li><a href="https://ustc-resource.github.io/USTC-Course/">USTC-Course | :heart:中国科学技术大学课程资源</a></li>
+				<li><a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271">Intro to Artificial Intelligence | Udacity Free Courses</a></li>
+				<li><a href="https://cn.bing.com/videos/search?q=%e5%8f%af%e6%b1%97%e5%ad%a6%e9%99%a2%e5%85%ac%e5%bc%80%e8%af%be%ef%bc%9a%e7%bb%9f%e8%ae%a1%e5%ad%a6_%e5%93%94%e5%93%a9%e5%93%94%e5%93%a9_bilibili&qpvt=%e5%8f%af%e6%b1%97%e5%ad%a6%e9%99%a2%e5%85%ac%e5%bc%80%e8%af%be%ef%bc%9a%e7%bb%9f%e8%ae%a1%e5%ad%a6_%e5%93%94%e5%93%a9%e5%93%94%e5%93%a9_bilibili&FORM=VDRE">可汗学院公开课：统计学_哔哩哔哩</a></li>
+				<li><a href="https://www.bilibili.com/video/av10590361/">李宏毅机器学习(2017)_哔哩哔哩</a></li>
+				<li><a href="https://www.bilibili.com/video/BV1Kb41127fT">数据结构-浙江大学_哔哩哔哩</a></li>
+			</ul>
+		</div>
+		<div class="three">
+			<h2>我对计算机专业的知识</h2>
+			<p>
+				&nbsp;&nbsp;&nbsp;&nbsp;计算机专业在当今社会非常的重要，与我们的
+				活密切相关。它是多门学科的结合，比如概率论、
+				离散数学等等，这也说明了它的难度不容小觑，并且随着发展，
+				计算机专业将于更多的专业相融合以此造福人类。计算机专业包含的内容很多，
+				但都需要从最基础的学起。就像学数学一样，初学时只用记住简单的公式，而随着学习的深入，
+				需要合适的公式和正确的组合。同样的，学习计算机专业也能带给人破解难题的快乐，
+				并且更多时候是解决生活中的问题。计算机专业的确是在不断发展、与时俱进的，
+				但它也要求我们掌握最基本的理论并从中学习。
+			</p>
+		</div>
+		<div class="four">
+			<h2>我的学业规划</h2>
+			<p>
+				&nbsp;&nbsp;&nbsp;&nbsp;由大到小，先在大一大二对计算机学科有总体的了解，构建起一个比较清晰的学习框架，
+				然后在大三大四以至以后的学习中针对自己感兴趣的板块进行详细的探究；由浅入深，从广泛的了解到深入的学习，逐渐加大难度。
+				在大一阶段掌握好基础学科的知识，打好基础，更重要的是养成良好的学习、生活习惯；
+				在大二大三阶段将更多的时间投入到学习中，夯实专业知识；最后，在平时的生活学习中多动脑，将计算机知识用于实践。
+			</p>
+		</div>
+		</div>
+	</body>
+</html>
